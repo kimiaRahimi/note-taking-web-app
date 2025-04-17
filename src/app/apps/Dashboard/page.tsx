@@ -1,6 +1,13 @@
+import Sidebar from "@/components/Sidebar"
+
+
 const page=()=> {
   return (
-    <div>page</div>
+    <div className=" dashboard">
+      {/* sidebar */}
+      <Sidebar/>
+      {/*main  */}
+    </div>
   )
 }
 

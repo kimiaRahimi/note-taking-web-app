@@ -18,7 +18,7 @@ const LoginPage = ()=> {
             </div>
             <div className="flex flex-col">
             <label htmlFor="">Password</label>
-            <input type="text" placeholder="At least 8 characters in total" className="p-2 border border-gray-300 rounded-md" required />
+            <input type="password" placeholder="At least 8 characters in total" className="p-2 border border-gray-300 rounded-md" required />
             </div>
             <Link href={"/apps/Dashboard"} className="bg-blue-600 text-white w-full rounded-sm p-3 font-semibold flex justify-center items-center cursor-pointer">Log in</Link>
           </form>
