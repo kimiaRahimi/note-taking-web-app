@@ -43,7 +43,7 @@ const NoteOptions = () => {
         >
           <div className="flex gap-1 items-center">
             {item.icon}
-            <span className="text-base">{item.title}</span>
+            <span className="text-sm">{item.title}</span>
           </div>
           {active[item.type] && <RightIcon className="text-blue-700 size-4" />}
         </div>

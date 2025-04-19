@@ -1,3 +1,4 @@
+import MainPage from "@/components/MainPage"
 import Sidebar from "@/components/Sidebar"
 
 
@@ -7,6 +8,7 @@ const page=()=> {
       {/* sidebar */}
       <Sidebar/>
       {/*main  */}
+      <MainPage/>
     </div>
   )
 }
