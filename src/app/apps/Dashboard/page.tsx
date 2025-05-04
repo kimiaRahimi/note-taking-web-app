@@ -4,7 +4,7 @@ import Sidebar from "@/components/Sidebar"
 
 const page=()=> {
   return (
-    <div className=" dashboard">
+    <div className=" dashboard overflow-hidden h-full">
       {/* sidebar */}
       <Sidebar/>
       {/*main  */}

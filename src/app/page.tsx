@@ -3,7 +3,7 @@ import LoginPage from "@/components/LoginPage";
 export default function Home() {
   return (
    
-    <div><LoginPage/></div>
+    <div className="overflow-hidden h-full"><LoginPage/></div>
    
   );
 }

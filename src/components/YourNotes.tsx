@@ -4,7 +4,7 @@ import TagsIcon from "@/Icons/TagsIcon"
 
 const YourNotes = () => {
   return (
-    <div className="border-r border-gray-300 h-screen">
+    <div className="border-r border-gray-300 h-full">
         <div className="flex flex-col gap-6 px-4 py-6">
           <span className="text-2xl font-bold">Untitled Note</span>
           <div className="flex flex-col gap-2">

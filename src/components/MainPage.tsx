@@ -6,12 +6,10 @@ import Notes from "./Notes"
 
 const MainPage=()=> {
   return (
-    <div className="headermain">
-    {/* header */}
+    <div className="headermain overflow-hidden h-full">
     <Provider store={store}>
     <Header/>
     </Provider>
-    {/* Notes */}
     <Notes/>
 
     </div>
