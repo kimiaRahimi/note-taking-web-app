@@ -5,6 +5,13 @@ export interface IActiveState{
     }
 }
 
+
+export interface ICreateNote{
+    isShowCreateNote :boolean
+}
+
+
 export interface IRootState{
-    active:IActiveState
+    active:IActiveStateو
+    showCreateNote : ICreateNote
 }

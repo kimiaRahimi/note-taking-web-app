@@ -9,8 +9,9 @@ const MainPage=()=> {
     <div className="headermain overflow-hidden h-full">
     <Provider store={store}>
     <Header/>
-    </Provider>
     <Notes/>
+    </Provider>
+    
 
     </div>
   )

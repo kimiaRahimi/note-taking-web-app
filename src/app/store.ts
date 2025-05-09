@@ -6,7 +6,7 @@ import ShowCreateSlice from "../features/ShowCreateNoteSlice"
 const store = configureStore({
     reducer:{
         active : activeSlice,
-        isShowCreateNote:ShowCreateSlice,
+        showCreateNote: ShowCreateSlice,
     }
 })
 
